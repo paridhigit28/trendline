@@ -1,0 +1,178 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+.top {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(231, 225, 225);
+}
+.bottom {
+  width: 100%;
+  height: 50%;
+}
+.center {
+  width: 90%;
+  height: 85%;
+  border: 7px solid black;
+  border-radius: 5px;
+  /* background-color: pink; */
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  margin: auto;
+}
+
+
+.nav {
+  height: 20%;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.gola1 {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.gola2 {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  /* margin-left:20px ; */
+}
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 30px;
+}
+.nav2 h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(117, 114, 114);
+}
+.nav2 h4 span {
+  color: rgb(207, 207, 213);
+  margin-left: 15px;
+}
+.nav-part2 {
+  height: 15%;
+  width: 100%;
+  /* background-color: lime; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 45px;
+  margin-left: 20px;
+  /* padding: auto; */
+  margin-top: -5px;
+}
+.nav-part2 h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(117, 114, 114);
+}
+.center-top {
+  background-color: white;
+  width: 100%;
+  height: 50%;
+}
+
+.content {
+  height: 67.5%;
+  width: 100%;
+  /* background-color: #820452; */
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* position: relative; */
+}
+.content::-webkit-scrollbar{
+  background-color: transparent;
+  height: 3px;
+}
+.content::-webkit-scrollbar-thumb{
+  background-color: rgb(234, 37, 37);
+  
+}
+.elem {
+  height: 100%;
+  width: 110%;
+  /* background-color: aqua; */
+  /* border: 0px solid black; */
+  flex-shrink: 0;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: flex-end; */
+  padding-left:35vw ;
+  
+}
+
+.elem h1{
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Poiret One";
+  justify-content: flex-start;
+  align-items: end;
+}
+.elem h4{
+  font-family: 700;
+  font-size: 20px;
+  
+}
+.elem h4 span{
+  font-size: 10px;
+  color: rgb(190, 181, 181);
+  font-weight: 400;
+}
+.elem span{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.center-bottom {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(117, 203, 237);
+}
+.img-content{
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+
+  /* background-position: 0 90%; */
+}
+.img-content img{
+  height: 100%;
+  width: 100%;
+ object-fit: cover;
+ object-position: 0 35%;
+}
+
